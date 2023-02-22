@@ -22,7 +22,6 @@ $direccion = $datos[0]['address'];
 <body>
     <div class="container">
         <h1>Tabla de usuarios</h1>
-        <?php print_r($datos);?>
         <div class="row">
             <div class="col-sm-12">
                 <form method="POST" action="<?php echo base_url() . '/actualizar' ?>">
